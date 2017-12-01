@@ -4,12 +4,15 @@
 
 using namespace custom_ray::math_library;
 using namespace std;
+using namespace custom_scene;
 
 
 int main() {
 	int arr[3] = { 1,2,3 };
 	vector_operations<int> foo;
 	vector_operations<int> boo(3, arr);
+	Scene scene;
+
 	for (int i = 0; i<3; i++)
 		cout << foo.get_vector_index(i) << endl;
 	for (int i = 0; i<3; i++)

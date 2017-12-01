@@ -20,8 +20,8 @@ namespace custom_ray {
 			int get_length()const;
 
 		};
-	};
-};
+	}; //namespace math_library
+}; //namesapce custom_ray
 
 namespace custom_ray {
 	namespace math_library {
@@ -81,7 +81,7 @@ namespace custom_ray {
 			return get_vector_index(i);
 		}
 
-	}
-}
+	}//namespace math_library
+} //namesapce custom_ray
 
 
