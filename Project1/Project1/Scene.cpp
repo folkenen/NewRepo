@@ -1,5 +1,7 @@
 #include "Scene.h"
+#include<iostream>
 
+using namespace std;
 
 namespace custom_scene {
 	Scene::Scene()
@@ -13,6 +15,6 @@ namespace custom_scene {
 
 	void Scene::Scene_Init()
 	{
-
+		cout << "Scene initialized" << endl;
 	}
 } //namespace custom_scene

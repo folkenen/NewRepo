@@ -23,5 +23,7 @@ int main() {
 		cout << foo.get_vector_index(i) << endl;
 	if (!(foo == boo))
 		cout << "FALSE" << endl;
+	scene.Scene_Init();
+	cin.get();
 	return 0;
 }
