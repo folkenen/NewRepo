@@ -111,7 +111,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CustomRay.h" />
+    <ClInclude Include="Matrice.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="VectorND.h" />
     <ClInclude Include="Scene.h" />
   </ItemGroup>
   <ItemGroup>
